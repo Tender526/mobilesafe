@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SplashActivity!</string>
+    <string name="app_name">手机卫士</string>
+    <string name="main_screen">主界面</string>
+    <string name="lost_protected">手机防盗</string>
+    <string name="setupguide1_tv">1.欢迎使用防盗设置</string>
+    <string name="setupguide1">设置向导1/4</string>
+    <string name="guide1_content_tv">您的手机防盗卫士：</string>
+    <string name="guide1_content_gpszz_tv">gps追踪</string>
+    <string name="guide1_content_xhsj_tv">销毁数据</string>
+    <string name="guide1_content_bgbj_tv">sim卡变更报警</string>
+    <string name="guide1_content_ycsp_tv">远程锁屏</string>
+    <string name="imageview">ImageView</string>
+
+</resources>

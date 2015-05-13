@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/title_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 设置向导页面标题 -->
+    <style name="setupguide_titile_text_content">
+        <item name="android:layout_height">fill_parent</item>        <item name="android:layout_width">wrap_content</item>        <item name="android:textColor">#ff00ff66</item>        <item name="android:textSize">28sp</item>    </style>
+    
+    <!-- 设置向导的分割线 -->
+    <style name="setupguide_division_line">
+        <item name="android:layout_marginTop">8dip</item>        <item name="android:layout_height">1dip</item>        <item name="android:layout_width">fill_parent</item>
+        <item name="android:background">@drawable/devide_line</item>    </style>
+    
+    <!-- 设置向导内容 -->
+    <style name="setupguide_content_text_content">
+        <item name="android:layout_height">fill_parent</item>        <item name="android:layout_width">wrap_content</item>        <item name="android:textSize">20sp</item>        <item name="android:textColor">#ff00ff66</item>    </style>
+    
+    <!-- 引用系统内置的星星图标 -->
+     <style name="setupguide_image_star_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@android:drawable/btn_star_big_on</item>
+    </style>
+    
+</resources>

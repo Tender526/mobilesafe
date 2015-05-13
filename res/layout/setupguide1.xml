@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/setupguide_titile_text_content"
+        android:text="@string/setupguide1_tv" />
+
+    <ImageView
+        style="@style/setupguide_division_line"
+        android:contentDescription="@string/imageview" />
+
+    <TextView
+        style="@style/setupguide_content_text_content"
+        android:text="@string/guide1_content_tv" />
+<!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dip"
+        android:orientation="horizontal" >
+
+         <ImageView android:contentDescription="@string/imageview" style="@style/setupguide_image_star_style"/>
+
+        <TextView
+            android:layout_marginTop="2dip"
+            android:drawableLeft="@style/setupguide_image_star_style"
+            android:text="@string/guide1_content_bgbj_tv" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dip"
+        android:orientation="horizontal" >
+
+         <ImageView android:contentDescription="@string/imageview" style="@style/setupguide_image_star_style"/>
+
+        <TextView
+            android:layout_marginTop="1dip"
+            android:drawableLeft="@style/setupguide_image_star_style"
+            android:text="@string/guide1_content_gpszz_tv" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dip"
+        android:orientation="horizontal" >
+
+         <ImageView android:contentDescription="@string/imageview" style="@style/setupguide_image_star_style"/>
+
+        <TextView
+            android:layout_marginTop="1dip"
+            android:drawableLeft="@style/setupguide_image_star_style"
+            android:text="@string/guide1_content_xhsj_tv" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dip"
+        android:orientation="horizontal" >
+
+         <ImageView android:contentDescription="@string/imageview" style="@style/setupguide_image_star_style"/>
+
+        <TextView
+            android:layout_marginTop="1dip"
+            android:drawableLeft="@style/setupguide_image_star_style"
+            android:text="@string/guide1_content_ycsp_tv" />
+    </LinearLayout>
+-->
+</LinearLayout>
